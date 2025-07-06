@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: movies-reate
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: false
+  sql:
+    init:
+      platform: postgres
